@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Boots And Spurs";
+  src: url ("../fonts/BootsAndSpurs.ttf") format("truetype");
+}
+
+body {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  display: grid;
+}
+.nav-header,
+nav {
+  background-color: #1b203d;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  align-items: center;
+}
+
+.cta {
+  background-color: #1b203d;
+  color: rgb(27 184 16);
+  padding: 10px 30px;
+  border: 2px solid rgb(27 184 16);
+  border-radius: 15px;
+  margin: 40px 20px;
+  font-size: 0.8em;
+}
+
+.active {
+  background-color: white;
+}
+a {
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+}
+.welcome {
+  background-image: url(../images/GameHub_Logo.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top 20px;
+  min-height: 70vh;
+  position: relative;
+  background-size: 300px;
+}
+
+.sales-link {
+  width: 250px;
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 800px) {
+}
