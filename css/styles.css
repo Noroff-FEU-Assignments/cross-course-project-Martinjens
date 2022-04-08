@@ -8,16 +8,34 @@ body {
   min-height: 100vh;
   display: grid;
 }
-.nav-header,
-nav {
-  background-color: #1b203d;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 20px;
+
+nav{
+  display: none;
 }
+
+
 
 header {
   align-items: center;
+  padding: 20px;
+  background-color: #1b203d;
+  text-align: center;
+  color:rgb(27 184 16);
+}
+
+footer{
+  background-color: #1b203d;
+  color: rgb(27 184 16);
+}
+
+.nav-footer{
+  display:inline;
+  color:rgb(27 184 16);
+  text-align: center;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
 }
 
 .cta {
@@ -51,10 +69,40 @@ nav li {
 }
 
 .sales-link {
-  width: 250px;
+position: absolute;
+left: 50px;
+bottom: 200px;
+  
 }
 
+.sign-up {
+ position: absolute;
+ right:20px;
+ top:30px
+}
+
+.games {
+ width:100px;
+ height: 80px;
+}
+
+.game-list{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  gap:15px;
+}
+
+
+
 @media (min-width: 600px) {
+  .game-list{
+grid-template-columns: repeat(2,1fr);
+}
+
+.form-wrapper{
+  display:flex;
+}
 }
 
 @media (min-width: 800px) {

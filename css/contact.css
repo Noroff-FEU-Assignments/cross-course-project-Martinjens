@@ -1,0 +1,35 @@
+input,
+select,
+textarea{
+    border: 1px solid rgb(27 184 16);
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    padding:10px;
+}
+
+
+textarea { 
+    height:190px;
+    width: 190px;
+}
+
+.contact{
+    max-width: 1000px;
+    margin:50px auto;
+    text-align: center;
+}
+
+.form-wrapper{
+    text-align: left;
+}
+
+.form-wrapper > *{
+flex:1;
+display:flex;
+flex-direction: column;
+}
+
+fieldset{
+    background-color: #1b203d;
+    color:rgb(27 184 16);
+}
