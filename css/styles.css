@@ -6,6 +6,7 @@
 body {
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
   min-height: 100vh;
+  margin: 0px;
 }
 
 header {
@@ -31,13 +32,19 @@ header {
 footer{
   background-color: #1b203d;
   color: rgb(27 184 16);
+  position: absolute;
+  bottom: 0px;
+  width:100%;
 }
+
+
 
 .nav-footer{
   display:inline;
   color:rgb(27 184 16);
   text-align: center;
 }
+
 
 .cta {
   background-color: #1b203d;
@@ -71,7 +78,7 @@ nav li {
 
 .games {
  width:100px;
- height: 80px;
+ height: 100px;
 }
 
 

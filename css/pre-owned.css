@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+
+.game-list{
+    max-width: 1000px;
+    margin:50px auto;
+    display:flex;
+}
+
+.game-list > * {
+    flex:1;
+}
+
+.product{
+    display:flex;
+}
+
+.product > * {
+    flex:3;
+}
