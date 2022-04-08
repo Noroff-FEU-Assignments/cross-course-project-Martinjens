@@ -6,21 +6,26 @@
 body {
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
   min-height: 100vh;
-  display: grid;
 }
-
-nav{
-  display: none;
-}
-
-
 
 header {
-  align-items: center;
   padding: 20px;
   background-color: #1b203d;
-  text-align: center;
   color:rgb(27 184 16);
+}
+
+.container{
+  display:flex;
+  justify-content: space-between;
+}
+
+.cta{
+  flex:1;
+}
+
+.footer-nav{
+  display:flex;
+  justify-content: center;
 }
 
 footer{
@@ -34,17 +39,13 @@ footer{
   text-align: center;
 }
 
-#hamburger-menu:checked ~ nav {
-  display: block;
-}
-
 .cta {
   background-color: #1b203d;
   color: rgb(27 184 16);
   padding: 10px 30px;
   border: 2px solid rgb(27 184 16);
   border-radius: 15px;
-  margin: 40px 20px;
+  margin: 40px 10px;
   font-size: 0.8em;
 }
 
@@ -68,42 +69,23 @@ nav li {
   background-size: 300px;
 }
 
-.sales-link {
-position: absolute;
-left: 50px;
-bottom: 200px;
-  
-}
-
-.sign-up {
- position: absolute;
- right:20px;
- top:30px
-}
-
 .games {
  width:100px;
  height: 80px;
 }
 
-.game-list{
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-content: space-between;
-  gap:15px;
-}
 
 
 
 @media (min-width: 600px) {
-  .game-list{
-grid-template-columns: repeat(2,1fr);
+  .form-wrapper{
+    display:flex;
+  }
+
 }
 
-.form-wrapper{
-  display:flex;
-}
-}
+
+
 
 @media (min-width: 800px) {
 }
