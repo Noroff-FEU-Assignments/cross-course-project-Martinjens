@@ -6,16 +6,20 @@ h1{
     max-width: 1000px;
     margin:50px auto;
     display:flex;
+    flex-wrap: wrap;
 }
 
 .game-list > * {
     flex:1;
+
 }
 
-.product{
-    display:flex;
+a {
+    display:block;
 }
 
-.product > * {
-    flex:;
+.product {
+   display:flex;
+    flex:1 0 300px;
+
 }
