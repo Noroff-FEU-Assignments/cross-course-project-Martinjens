@@ -7,14 +7,14 @@
     <meta name="description" content="This page is all about games" />
     <title>Game Hub</title>
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/login.css" rel="stylesheet" />
     <script
-    src="https://kit.fontawesome.com/b318972c4d.js"
-    crossorigin="anonymous"
-  ></script>
+      src="https://kit.fontawesome.com/b318972c4d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      
       <nav>
         <ul>
           <section class="container">
@@ -35,12 +35,26 @@
         </ul>
       </nav>
     </header>
-    <main class="welcome">
-      <h1>Welcome To game Hub</h1>
-      <h2>Looking for a new game?</h2>
+    <main>
+        <fieldset class="login">
+            <div class="form-wrapper">
+              <section>
+                <label for="name">First name</label>
+                <input type="text" name="first name" id="name" />
+                <label for="name">Last name</label>
+                <input type="text" name="last name" id="name" />
+                <label for="email"> Email</label>
+                <input type="text" name="email" id="email">
+                <labe for="password">Password</labe>
+                <input type="text" name="password" id="password">
+                <a href="index.html" class="login-cta cta">Send now</a>  
+            </section>
+              </fieldset>
+              
+        </div>
     </main>
     <footer class="footer-nav">
-     
+      <nav>
         <section>
         <ul>
           Copyright &copy;

@@ -13,8 +13,8 @@ textarea {
     width: 190px;
 }
 
-.contact{
-    max-width: 500px;
+.login{
+    max-width: 400px;
     margin:40px auto;
     text-align: center;
 }
@@ -29,6 +29,10 @@ display:flex;
 flex-direction: column;
 }
 
+.login-cta {
+    width: 64px;
+    align-self: center;
+}
 
 fieldset{
     background-color: #1b203d;

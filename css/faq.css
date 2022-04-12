@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    color:#1b203d
+}
+
+textarea{
+    border: 1px solid rgb(27 184 16);
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    padding:10px;
+   
+}
+
+
+textarea { 
+    height:20px;
+    width: 500px;
+}
+
+.faq{
+    max-width: 500px;
+    margin:40px auto;
+    text-align: center;
+}
+
+.form-wrapper{
+    text-align: center;
+}
+
+.form-wrapper > *{
+flex:1;
+display:flex;
+flex-direction: column;
+}
+
+fieldset{
+    background-color: #1b203d;
+    color:rgb(27 184 16);
+}
+
+.fieldset{
+    margin:40px auto;
+}
+
+.faq{
+    flex:1;
+    display:flex;
+    display: block;
+}
+
+.question{
+    text-align: center;
+    margin:40px auto;
+    border: 4px 4px;
+    padding:10px;
+    background-color: #1b203d;
+    color:rgb(27 184 16);
+    max-width: 500px;
+}
+
