@@ -1,0 +1,12 @@
+.product-footer{
+    display:flex;
+    background-color: #1b203d;
+  color: rgb(27 184 16);
+  width:100%;
+  justify-content: space-evenly;
+}
+
+.product-details {
+    display:flex;
+    flex-wrap:wrap;
+}

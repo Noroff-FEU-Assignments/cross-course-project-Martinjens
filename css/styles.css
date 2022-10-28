@@ -17,7 +17,7 @@ header {
 
 .container{
   display:flex;
-  justify-content: space-between;
+  justify-content:space-evenly;
 }
 
 .container{
@@ -39,24 +39,25 @@ nav li {
 .footer-nav{
   display:flex;
   flex:1;
-  justify-content: center;
+  justify-content: space-between;
  display: inline-block;
-}
-
-footer{
-  background-color: #1b203d;
+ background-color: #1b203d;
   color: rgb(27 184 16);
-  position: absolute;
+  position:absolute;
   bottom: 0px;
   width:100%;
 }
 
-
+ul {
+  display:flex;
+  justify-content: space-around;
+}
 
 .nav-footer{
   display:inline-block;
   color:rgb(27 184 16);
   text-align: center;
+ 
 }
 
 
