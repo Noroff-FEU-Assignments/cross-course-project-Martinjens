@@ -1,6 +1,6 @@
 # GameRage
 
-<img class="logoimg" src="GameHub_Logo.png"/>
+<img class="logoimg" src="images/GameHub_Logo.png"/>
 
 This is my Cross Course Project
 
