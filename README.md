@@ -1,4 +1,4 @@
-# GameRage
+# GameHub
 
 <img class="logoimg" src="images/GameHub_Logo.png"/>
 
@@ -14,8 +14,6 @@ This includes:
 - Design
 
 ## Built With
-
-You can list a the tech stack that you've used over here
 
 - Adobe XD
 - CSS
