@@ -27,7 +27,7 @@ To get started with this project simply clone the github link and open in in the
 
 1. Clone the repo:
 
-https://github.com/Noroff-FEU-Assignments/project-exam-1-Martinjens
+https://github.com/Noroff-FEU-Assignments/cross-course-project-Martinjens
 
 ## Contact
 
